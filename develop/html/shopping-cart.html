@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CART</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css"
+          integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/normalize.min.css">
+    <link rel="stylesheet" href="styles/style.min.css">
+</head>
+
+<body>
+<div class="main-container">
+    <header class="page-header">
+        <div class="container header-flex">
+            <div class="header-left">
+                <a class="logo" href="index.html">
+                    <img class="logo-img" src="img/logo.png" alt="logo">BRAN<span class="logo-d">D</span>
+                </a>
+                <input type="checkbox" id="browse-check">
+                <label class="summary browse" for="browse-check">Browse</label>
+                <div class="browse-menu">
+                    <h3 class="dropdown-menu-title browse-title">Women</h3>
+                    <ul class="browse-ul">
+                        <li class="dropdown-menu-li">
+                            <a class="dropdown-menu-link" href="product.html">Dresses</a></li>
+                        <li class="dropdown-menu-li">
+                            <a class="dropdown-menu-link" href="product.html">Tops</a></li>
+                        <li class="dropdown-menu-li">
+                            <a class="dropdown-menu-link" href="product.html">Sweaters/Knits</a></li>
+                        <li class="dropdown-menu-li">
+                            <a class="dropdown-menu-link" href="product.html">Jackets/Coats</a></li>
+                        <li class="dropdown-menu-li">
+                            <a class="dropdown-menu-link" href="product.html">Blazers</a></li>
+                        <li class="dropdown-menu-li">
+                            <a class="dropdown-menu-link" href="product.html">Denim</a></li>
+                        <li class="dropdown-menu-li">
+                            <a class="dropdown-menu-link" href="product.html">Leggings/Pants</a></li>
+                        <li class="dropdown-menu-li">
+                            <a class="dropdown-menu-link" href="product.html">Skirts/Shorts</a></li>
+                        <li class="dropdown-menu-li">
+                            <a class="dropdown-menu-link" href="product.html">Accessories</a></li>
+                    </ul>
+                    <h3 class="dropdown-menu-title browse-title">Men</h3>
+                    <ul class="browse-ul">
+                        <li class="dropdown-menu-li">
+                            <a class="dropdown-menu-link" href="product.html">Tees/Tank tops</a></li>
+                        <li class="dropdown-menu-li">
+                            <a class="dropdown-menu-link" href="product.html">Shirts/Polos</a></li>
+                        <li class="dropdown-menu-li">
+                            <a class="dropdown-menu-link" href="product.html">Sweaters</a></li>
+                        <li class="dropdown-menu-li">
+                            <a class="dropdown-menu-link" href="product.html">Sweatshirts/Hoodies</a></li>
+                        <li class="dropdown-menu-li">
+                            <a class="dropdown-menu-link" href="product.html">Blazers</a></li>
+                        <li class="dropdown-menu-li">
+                            <a class="dropdown-menu-link" href="product.html">Jackets/vests</a></li>
+                    </ul>
+                </div>
+                <form class="header-form" action="#">
+                    <input class="text" type="search" placeholder="Search for Item..." minlength="3" required>
+                    <button class="search" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+            <div class="header-right">
+                <a class="cart-img-parent" href="shopping-cart.html">
+                    <img class="cart-img" src="img/cart.svg" alt="Cart">
+                </a>
+                <a class="button rounded-btn" href="#">My&nbsp;Acoount<i class="fas fa-caret-down btn-fa"></i></a>
+            </div>
+        </div>
+    </header>
+    <nav class="main-nav">
+        <div class="container">
+            <ul class="menu-list">
+                <li class="menu-item"><a class="menu-link" href="index.html">Home</a></li>
+                <li class="menu-item">
+                    <input type="checkbox" id="main-nav-check-1" class="main-nav-check">
+                    <label for="main-nav-check-1" class="main-nav-label menu-link">Man</label>
+                    <div class="main-nav-dropdown main-nav-dropdown-1">
+                        <div class="dropdown-container">
+                            <h3 class="dropdown-menu-title">Women</h3>
+                            <ul>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Dresses</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Tops</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Sweaters/Knits</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Jackets/Coats</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Blazers</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Denim</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Leggings/Pants</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Skirts/Shorts</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Accessories</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown-container">
+                            <h3 class="dropdown-menu-title">Women</h3>
+                            <ul>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Dresses</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Tops</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Sweaters/Knits</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Jackets/Coats</a></li>
+                            </ul>
+                            <h3 class="dropdown-menu-title">Women</h3>
+                            <ul>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Dresses</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Tops</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Sweaters/Knits</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown-container">
+                            <h3 class="dropdown-menu-title">Women</h3>
+                            <ul>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Dresses</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Tops</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Sweaters/Knits</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Jackets/Coats</a></li>
+                            </ul>
+                            <div class="dropdown-promo">
+                                <div class="dropdown-promo-text">
+                                    <p class="dropdown-promo-p">Super </p>
+                                    <p class="dropdown-promo-p">sale!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu-item">
+                    <input type="checkbox" id="main-nav-check-2" class="main-nav-check">
+                    <label for="main-nav-check-2" class="main-nav-label menu-link">Women</label>
+                    <div class="main-nav-dropdown main-nav-dropdown-2">
+                        <div class="dropdown-container">
+                            <h3 class="dropdown-menu-title">Women</h3>
+                            <ul>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Dresses</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Tops</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Sweaters/Knits</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Jackets/Coats</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Blazers</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Denim</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Leggings/Pants</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Skirts/Shorts</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Accessories</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown-container">
+                            <h3 class="dropdown-menu-title">Women</h3>
+                            <ul>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Dresses</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Tops</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Sweaters/Knits</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Jackets/Coats</a></li>
+                            </ul>
+                            <h3 class="dropdown-menu-title">Women</h3>
+                            <ul>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Dresses</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Tops</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Sweaters/Knits</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown-container">
+                            <h3 class="dropdown-menu-title">Women</h3>
+                            <ul>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Dresses</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Tops</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Sweaters/Knits</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Jackets/Coats</a></li>
+                            </ul>
+                            <div class="dropdown-promo">
+                                <div class="dropdown-promo-text">
+                                    <p class="dropdown-promo-p">Super </p>
+                                    <p class="dropdown-promo-p">sale!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu-item">
+                    <input type="checkbox" id="main-nav-check-3" class="main-nav-check">
+                    <label for="main-nav-check-3" class="main-nav-label menu-link">Kids</label>
+                    <div class="main-nav-dropdown main-nav-dropdown-3">
+                        <div class="dropdown-container">
+                            <h3 class="dropdown-menu-title">Women</h3>
+                            <ul>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Dresses</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Tops</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Sweaters/Knits</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Jackets/Coats</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Blazers</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Denim</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Leggings/Pants</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Skirts/Shorts</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Accessories</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown-container">
+                            <h3 class="dropdown-menu-title">Women</h3>
+                            <ul>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Dresses</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Tops</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Sweaters/Knits</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Jackets/Coats</a></li>
+                            </ul>
+                            <h3 class="dropdown-menu-title">Women</h3>
+                            <ul>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Dresses</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Tops</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Sweaters/Knits</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown-container">
+                            <h3 class="dropdown-menu-title">Women</h3>
+                            <ul>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Dresses</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Tops</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Sweaters/Knits</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Jackets/Coats</a></li>
+                            </ul>
+                            <div class="dropdown-promo">
+                                <div class="dropdown-promo-text">
+                                    <p class="dropdown-promo-p">Super </p>
+                                    <p class="dropdown-promo-p">sale!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu-item">
+                    <input type="checkbox" id="main-nav-check-4" class="main-nav-check">
+                    <label for="main-nav-check-4" class="main-nav-label menu-link">Accoseriese</label>
+                    <div class="main-nav-dropdown main-nav-dropdown-4">
+                        <div class="dropdown-container">
+                            <h3 class="dropdown-menu-title">Women</h3>
+                            <ul>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Dresses</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Tops</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Sweaters/Knits</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Jackets/Coats</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Blazers</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Denim</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Leggings/Pants</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Skirts/Shorts</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Accessories</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown-container">
+                            <h3 class="dropdown-menu-title">Women</h3>
+                            <ul>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Dresses</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Tops</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Sweaters/Knits</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Jackets/Coats</a></li>
+                            </ul>
+                            <h3 class="dropdown-menu-title">Women</h3>
+                            <ul>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Dresses</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Tops</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Sweaters/Knits</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown-container">
+                            <h3 class="dropdown-menu-title">Women</h3>
+                            <ul>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Dresses</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Tops</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Sweaters/Knits</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Jackets/Coats</a></li>
+                            </ul>
+                            <div class="dropdown-promo">
+                                <div class="dropdown-promo-text">
+                                    <p class="dropdown-promo-p">Super </p>
+                                    <p class="dropdown-promo-p">sale!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu-item">
+                    <input type="checkbox" id="main-nav-check-5" class="main-nav-check">
+                    <label for="main-nav-check-5" class="main-nav-label menu-link">Featured</label>
+                    <div class="main-nav-dropdown main-nav-dropdown-5">
+                        <div class="dropdown-container">
+                            <h3 class="dropdown-menu-title">Women</h3>
+                            <ul>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Dresses</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Tops</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Sweaters/Knits</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Jackets/Coats</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Blazers</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Denim</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Leggings/Pants</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Skirts/Shorts</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Accessories</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown-container">
+                            <h3 class="dropdown-menu-title">Women</h3>
+                            <ul>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Dresses</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Tops</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Sweaters/Knits</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Jackets/Coats</a></li>
+                            </ul>
+                            <h3 class="dropdown-menu-title">Women</h3>
+                            <ul>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Dresses</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Tops</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Sweaters/Knits</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown-container">
+                            <h3 class="dropdown-menu-title">Women</h3>
+                            <ul>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Dresses</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Tops</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Sweaters/Knits</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Jackets/Coats</a></li>
+                            </ul>
+                            <div class="dropdown-promo">
+                                <div class="dropdown-promo-text">
+                                    <p class="dropdown-promo-p">Super </p>
+                                    <p class="dropdown-promo-p">sale!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu-item">
+                    <input type="checkbox" id="main-nav-check-6" class="main-nav-check">
+                    <label for="main-nav-check-6" class="main-nav-label menu-link">Hot Deals</label>
+                    <div class="main-nav-dropdown main-nav-dropdown-6">
+                        <div class="dropdown-container">
+                            <h3 class="dropdown-menu-title">Women</h3>
+                            <ul>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Dresses</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Tops</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Sweaters/Knits</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Jackets/Coats</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Blazers</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Denim</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Leggings/Pants</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Skirts/Shorts</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Accessories</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown-container">
+                            <h3 class="dropdown-menu-title">Women</h3>
+                            <ul>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Dresses</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Tops</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Sweaters/Knits</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Jackets/Coats</a></li>
+                            </ul>
+                            <h3 class="dropdown-menu-title">Women</h3>
+                            <ul>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Dresses</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Tops</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Sweaters/Knits</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown-container">
+                            <h3 class="dropdown-menu-title">Women</h3>
+                            <ul>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Dresses</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Tops</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Sweaters/Knits</a></li>
+                                <li class="dropdown-menu-li">
+                                    <a class="dropdown-menu-link" href="product.html">Jackets/Coats</a></li>
+                            </ul>
+                            <div class="dropdown-promo">
+                                <div class="dropdown-promo-text">
+                                    <p class="dropdown-promo-p">Super </p>
+                                    <p class="dropdown-promo-p">sale!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="breadcrumbs-parent">
+        <div class="container breadcrumbs-flex">
+            <h3 class="breadcrumbs-title">Shopping Cart</h3>
+            <ul class="breadcrumbs">
+                <li><a class="breadcrumbs-link" href="index.html">Home</a></li>
+                <li><a class="breadcrumbs-link" href="product.html">Men</a></li>
+                <li><a class="breadcrumbs-link link-active" href="#">Shopping Cart</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="shopping-cart-main">
+        <div class="container main-cart-container">
+            <div class="shopping-cart-buttons">
+                <button class="button shopping-cart-btn clear-cart-btn" type="reset">CLEAR SHOPPING CART</button>
+                <a class="button shopping-cart-btn" href="product.html">CONTINUE SHOPPING</a>
+            </div>
+            <div class="shopping-cart-forms">
+                <form action="#" class="cart-forms-shipping">
+                    <h3 class="cart-forms-title">Shipping Address</h3>
+                    <select name="country" class="cart-forms-select">
+                        <option value="Denmark">Denmark</option>
+                        <option value="Bangladesh" selected>Bangladesh</option>
+                        <option value="Russia">Russia</option>
+                    </select>
+                    <input class="cart-forms-text" type="text" placeholder="State" minlength="2" required>
+                    <input class="cart-forms-text" type="text" placeholder="Postcode / Zip" minlength="4" maxlength="10"
+                           required>
+                    <button class="button cart-forms-btn" type="submit">get a&nbsp;quote</button>
+                </form>
+                <form action="#" class="cart-forms-discount">
+                    <h3 class="cart-forms-title">coupon discount</h3>
+                    <p class="cart-forms-p">Enter your coupon code if&nbsp;you have one</p>
+                    <input class="cart-forms-text" type="text" placeholder="Coupon Code" minlength="3" required>
+                    <button class="button cart-forms-btn" type="submit">Apply coupon</button>
+                </form>
+                <div class="cart-checkout">
+                    <p class="cart-checkout-sub">Sub total<span class="cart-checkout-sub-span">$0</span></p>
+                    <p class="cart-checkout-grand">GRAND TOTAL<span class="cart-checkout-grand-span">$0</span></p>
+                    <a class="button cart-checkout-btn" href="checkout.html">proceed to&nbsp;checkout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="subscr">
+        <div class="container subscr-flex">
+            <div class="subscr-left">
+                <input id="slq-toggle-1" name="toggle" type="radio">
+                <input id="slq-toggle-2" name="toggle" type="radio" checked>
+                <input id="slq-toggle-3" name="toggle" type="radio">
+                <div class="slider">
+                    <div class="bq-container">
+                        <blockquote class="bq-first">
+                            <p class="subscr-bq-p bq-image-1">&laquo;GeekUniversity прокачает ваши &bdquo;soft skills&ldquo;,
+                                которые
+                                обязательно проверят на&nbsp;собеседовании в&nbsp;любую серьезную компанию.&raquo;</p>
+                            <cite class="quote-cite">
+                                <span class="cite-first-line">GeekBrains</span>
+                                <span class="cite-second-line">Moscow, Ru</span>
+                            </cite>
+                        </blockquote>
+                        <blockquote class="bq-second">
+                            <p class="subscr-bq-p bq-image-2">&laquo;Vestibulum quis porttitor dui! Quisque viverra nunc&nbsp;mi,
+                                a
+                                pulvinar purus condimentum&nbsp;a. Aliquam condimentum mattis neque sed
+                                pretium&raquo;</p>
+                            <cite class="quote-cite">
+                                <span class="cite-first-line">Bin Burhan</span>
+                                <span class="cite-second-line">Dhaka, Bd</span>
+                            </cite>
+                        </blockquote>
+                        <blockquote class="bq-third">
+                            <p class="subscr-bq-p bq-image-3">&laquo;Шутка, насмешливое слово, часто удачнее и&nbsp;лучше
+                                определяет
+                                даже важные вещи, чем серьезное и&nbsp;глубокое изучение.&raquo;</p>
+                            <cite class="quote-cite">
+                                <span class="cite-first-line">Quintus Horatius Flaccus</span>
+                                <span class="cite-second-line">Rome, It</span>
+                            </cite>
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="toggle-controls">
+                    <label class="label toggle-1" for="slq-toggle-1"></label>
+                    <label class="label toggle-2" for="slq-toggle-2"></label>
+                    <label class="label toggle-3" for="slq-toggle-3"></label>
+                </div>
+            </div>
+            <div class="subscr-right">
+                <div class="subscr-header">
+                    <p class="sh-first-line">Subscribe</p>
+                    <p class="sh-second-line">FOR OUR NEWLETTER AND PROMOTION</p>
+                </div>
+                <form class="subscr-form" action="#">
+                    <input class="subscr-email" type="email" placeholder="Enter Your Email" required>
+                    <button class="button subscr-btn" type="submit" value="subscribe">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="page-end">
+        <div class="container page-end-flex">
+            <div class="page-end-left">
+                <a class="logo page-end-logo" href="index.html">
+                    <img class="logo-img" src="img/logo.png" alt="logo">BRAN<span class="logo-d">D</span>
+                </a>
+                <div class="page-end-text">
+                    <p class="page-end-text-p">Objectively transition extensive data rather than cross functional
+                        solutions.
+                        Monotonectally syndicate multidisciplinary materials before go&nbsp;forward benefits.
+                        Intrinsicly
+                        syndicate an&nbsp;expanded array of&nbsp;processes and cross-unit partnerships.
+                    </p>
+                    <p>Efficiently plagiarize 24/365 action items and focused infomediaries. Distinctively seize
+                        superior
+                        initiatives for wireless technologies. Dynamically optimize.</p>
+                </div>
+            </div>
+            <div class="page-end-right">
+                <nav class="page-end-nav">
+                    <div>
+                        <h3 class="page-end-nav-title">COMPANY</h3>
+                        <ul class="page-end-nav-ul">
+                            <li class="page-end-nav-li">
+                                <a class="page-end-nav-link" href="index.html">Home </a></li>
+                            <li class="page-end-nav-li">
+                                <a class="page-end-nav-link" href="product.html">Shop</a></li>
+                            <li class="page-end-nav-li">
+                                <a class="page-end-nav-link" href="#">About</a></li>
+                            <li class="page-end-nav-li">
+                                <a class="page-end-nav-link" href="#">How It&nbsp;Works</a></li>
+                            <li class="page-end-nav-li">
+                                <a class="page-end-nav-link" href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="page-end-nav-title">INFORMATION</h3>
+                        <ul class="page-end-nav-ul">
+                            <li class="page-end-nav-li">
+                                <a class="page-end-nav-link" href="#">Tearms &amp;&nbsp;Condition</a></li>
+                            <li class="page-end-nav-li">
+                                <a class="page-end-nav-link" href="#">Privacy Policy</a></li>
+                            <li class="page-end-nav-li">
+                                <a class="page-end-nav-link" href="#">How to&nbsp;Buy</a></li>
+                            <li class="page-end-nav-li">
+                                <a class="page-end-nav-link" href="#">How to&nbsp;Sell</a></li>
+                            <li class="page-end-nav-li">
+                                <a class="page-end-nav-link" href="#">Promotion</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="page-end-nav-title">SHOP CATEGORY</h3>
+                        <ul class="page-end-nav-ul">
+                            <li class="page-end-nav-li">
+                                <a class="page-end-nav-link" href="product.html">Men</a></li>
+                            <li class="page-end-nav-li">
+                                <a class="page-end-nav-link" href="product.html">Women</a></li>
+                            <li class="page-end-nav-li">
+                                <a class="page-end-nav-link" href="product.html">Child</a></li>
+                            <li class="page-end-nav-li">
+                                <a class="page-end-nav-link" href="product.html">Apparel</a></li>
+                            <li class="page-end-nav-li">
+                                <a class="page-end-nav-link" href="product.html">Brows All</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container footer-flex">
+            <p class="copyright">&copy;&nbsp;2017 Brand All Rights Reserved.</p>
+            <div class="social">
+                <a class="social-link link-fb" href="https://facebook.com" target="_blank"></a>
+                <a class="social-link link-tw" href="https://twitter.com" target="_blank"></a>
+                <a class="social-link link-in" href="https://linkedin.com" target="_blank"></a>
+                <a class="social-link link-pn" href="https://pinterest.com" target="_blank"></a>
+                <a class="social-link link-gp" href="https://plus.google.com" target="_blank"></a>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="scripts/jquery.min.js"></script>
+<script src="scripts/CartPreview.min.js"></script>
+<script src="scripts/Cart.min.js"></script>
+<script src="scripts/shopping-cart.min.js"></script>
+</body>
+
+</html>

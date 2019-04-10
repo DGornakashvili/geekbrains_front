@@ -1,0 +1,28 @@
+{
+  "amount": 500,
+  "countGoods": 2,
+  "contents": [
+    {
+      "id": 98,
+      "imageSrc": "img/cart-img1.jpg",
+      "name": "Rebox Zane",
+      "color": "Green",
+      "size": "M",
+      "ship": "FREE",
+      "price": 250,
+      "quantity": 1,
+      "rate": "<i class='fas fa-star'></i><i class='fas fa-star'></i><i class='fas fa-star'></i><i class='fas fa-star'></i><i class='fas fa-star-half-alt'></i>"
+    },
+    {
+      "id": 99,
+      "imageSrc": "img/cart-img2.jpg",
+      "name": "Rebox Zane",
+      "color": "White",
+      "size": "S",
+      "ship": "FREE",
+      "price": 250,
+      "quantity": 1,
+      "rate": "<i class='fas fa-star'></i><i class='fas fa-star'></i><i class='fas fa-star'></i><i class='fas fa-star'></i><i class='fas fa-star-half-alt'></i>"
+    }
+  ]
+}
